@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Montserrat:wght@300;400;600;700&family=Rubik&display=swap');
+*{
+margin: 1px;
+padding: 6px;
+padding-left: 10px;
+padding-right: 0%;
+margin-right: 0;
+font-family: "Montserrat";
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+ul li{
+padding-left: 5rem;
+justify-content: space-between;
+font-weight: bold;
+top: 3px;
+}
+.button-group{
+display: flex;
+padding: 16px;
+justify-content: space-around;
+position: relative;
+top: -8px;
+}
+.search-icon svg{
+width: 25px;
+height: 20px;
+color: black;
+}
+.nav-button{
+    width: 130px;
+    border-radius: 9px;
+    height: 30px;
+    color: #758283;
+    border-color: black;
+    position: relative;
+   
+}
+ul li:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+.square{
+    position: relative;
+    bottom: 0rem;
+    left: 1%;
+    top: 4rem;
+    width: 100px;
+}
+.hero-container img{
+    position: absolute;
+    padding-left: 100px;
+    left: 0;
+    top: 10rem; 
+    width: 390px;
+}
+.navbar-container img{
+    padding-left: 40px;
+    padding-bottom: 5px;
+    padding-top: 0px;
+}
+.globe img{
+    position: absolute;
+    left: 44rem;
+    top: 7rem;
+    width: 4%;
+}
+.star img{
+    position: absolute;
+    left: 69rem;
+    top: 11rem;
+    width: 4%;
+}
+.contact-heading{
+    position: relative;
+    left: 65%;
+    top: 235px;
+    font-weight: bold;
+    color: #758283;
+}
+.icons img{
+    position: relative;
+    left: 60%;
+    top: 235px;
+    bottom: 0;
+    display: flex;
+    float: left;
+    margin: 0;
+    list-style-type: none;
+    justify-content: space-between;
+    font-size: 0;
+    padding: 7px;
+    width: 40px;
+    right: -40%;
+}
+.hero-heading{
+    position: relative;
+    left: 43%;
+    top: 55px;
+    font-size:350%;
+    width: 100%;
+}
+.hero-description{
+    position:relative;
+    left: 48%;
+    top: 75px;
+    text-align: center;
+    width: 47%;
+    justify-content: left;
+    color: #758283;
+}
+.button-email{
+    position: relative;
+    left: 58%;
+    top: 160px;
+    width: 180px;
+    border-radius: 10px;
+    color: #758283;
+}
+.button-join{
+    position: relative;
+    left: 58%;
+    top: 160px;
+    width: 100px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: black;
+}
+button:hover{
+    cursor: pointer;
+}
+.small img{
+    position: absolute;
+    left: 30rem;
+    top: 38rem;
+    width: 3%;
+}
+.logo img{
+    width: 60%;
+    top: 2px;
+    position: relative;
+}
+
+
+
+
+
+
+
+

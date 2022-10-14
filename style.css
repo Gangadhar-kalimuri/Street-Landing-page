@@ -2,14 +2,14 @@
 *{
 margin: 1px;
 padding: 6px;
-padding-left: 10px;
+padding-left: 2px;
 padding-right: 0%;
 margin-right: 0;
 font-family: "Montserrat";
 }
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 ul{
     display: flex;
@@ -109,7 +109,7 @@ ul li:hover{
 }
 .hero-description{
     position:relative;
-    left: 48%;
+    left: 45%;
     top: 75px;
     text-align: center;
     width: 47%;
